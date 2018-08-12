@@ -27,12 +27,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 8280752d83e91f8b738ab6911ddd10b6f46e6723
 <div id="wrapper">
 
     <!-- ****** Header Area Start ****** -->
@@ -124,7 +118,7 @@
                                             <div class="dropdown-menu" aria-labelledby="karlDropdown">
                                                 <a class="dropdown-item" href="Skirt.jsp">Skirt</a>
                                                 <a class="dropdown-item" href="Jean.jsp">Jean</a>
-                                                <a class="dropdown-item" href="Dress.html">Dress</a>
+                                                <a class="dropdown-item" href="Dress.jsp">Dress</a>
 
                                                 <a class="dropdown-item" href="Short.jsp">Short</a>
                                                 <a class="dropdown-item" href="Top.jsp">Top</a>
@@ -300,11 +294,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single_footer_area">
                         <div class="footer-logo">
-<<<<<<< HEAD
-                            <img src="img/core-img/3.png" alt="">
-=======
                             <img src="${pageContext.request.contextPath}/img/core-img/3.png" alt="">
->>>>>>> 8280752d83e91f8b738ab6911ddd10b6f46e6723
                         </div>
                         <div class="copywrite_text d-flex align-items-center">
 
