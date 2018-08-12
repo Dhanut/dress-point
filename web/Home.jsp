@@ -27,14 +27,8 @@
 </head>
 
 <body>
-<h1><%= request.getAttribute("errorMessage") %></h1>
-<div class="catagories-side-menu">
-    <!-- Close Icon -->
-    <div id="sideMenuClose">
-        <i class="ti-close"></i>
-    </div>
 
-</div>
+
 
 <div id="wrapper">
 
@@ -303,7 +297,7 @@
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="single_footer_area">
                         <div class="footer-logo">
-                            <img src="img/core-img/logo.png" alt="">
+                            <img src="img/core-img/3.png" alt="">
                         </div>
                         <div class="copywrite_text d-flex align-items-center">
 
