@@ -177,7 +177,7 @@
         <rdfs:domain rdf:resource="http://www.dresspoint.com/ontologies/clothing#Cloth"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#hasColorValue -->
@@ -186,7 +186,7 @@
         <rdfs:domain rdf:resource="http://www.dresspoint.com/ontologies/clothing#Color"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#hasMaterialName -->
@@ -195,7 +195,7 @@
         <rdfs:domain rdf:resource="http://www.dresspoint.com/ontologies/clothing#Material"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#hasNeckTypeName -->
@@ -205,7 +205,7 @@
         <rdfs:domain rdf:resource="http://www.dresspoint.com/ontologies/clothing#NeckType"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#hasOffer -->
@@ -214,7 +214,7 @@
         <rdfs:domain rdf:resource="http://www.dresspoint.com/ontologies/clothing#Cloth"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#hasSizeValue -->
@@ -223,7 +223,7 @@
         <rdfs:domain rdf:resource="http://www.dresspoint.com/ontologies/clothing#Size"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#hasSleeveName -->
@@ -233,7 +233,7 @@
         <rdfs:domain rdf:resource="http://www.dresspoint.com/ontologies/clothing#Sleeve"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#picturePath -->
@@ -242,10 +242,10 @@
         <rdfs:domain rdf:resource="http://www.dresspoint.com/ontologies/clothing#Cloth"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
     </owl:DatatypeProperty>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -253,7 +253,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#ALine -->
@@ -261,7 +261,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#ALine">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Dress"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#BallGown -->
@@ -269,7 +269,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#BallGown">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Dress"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#BellBottom -->
@@ -277,7 +277,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#BellBottom">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#LadyTrouser"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#BodyCon -->
@@ -285,7 +285,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#BodyCon">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Dress"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Cloth -->
@@ -322,19 +322,19 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#CollarStyle -->
 
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#CollarStyle"/>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Color -->
 
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Color"/>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Dress -->
@@ -348,7 +348,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Flare -->
@@ -356,7 +356,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Flare">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#LadyTrouser"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#GentDenim -->
@@ -365,7 +365,7 @@
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#GentTrouser"/>
         <owl:disjointWith rdf:resource="http://www.dresspoint.com/ontologies/clothing#GentFormalWearPant"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#GentFormalWearPant -->
@@ -373,7 +373,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#GentFormalWearPant">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#GentTrouser"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#GentTrouser -->
@@ -381,7 +381,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#GentTrouser">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#MenWear"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Jean -->
@@ -389,7 +389,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Jean">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#WomenWear"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#LadyTrouser -->
@@ -397,13 +397,13 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#LadyTrouser">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#WomenWear"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Material -->
 
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Material"/>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Maxi -->
@@ -411,7 +411,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Maxi">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Dress"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#MenWear -->
@@ -419,7 +419,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#MenWear">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Cloth"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Mini -->
@@ -427,13 +427,13 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Mini">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Skirt"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#NeckType -->
 
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#NeckType"/>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#OneSholder -->
@@ -441,7 +441,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#OneSholder">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Dress"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Patterned -->
@@ -450,7 +450,7 @@
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Color"/>
         <owl:disjointWith rdf:resource="http://www.dresspoint.com/ontologies/clothing#Plain"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Pencil -->
@@ -458,7 +458,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Pencil">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Skirt"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Plain -->
@@ -466,7 +466,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Plain">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Color"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Pleat -->
@@ -474,7 +474,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Pleat">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Skirt"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Sheath -->
@@ -482,7 +482,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Sheath">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Dress"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Shift -->
@@ -490,7 +490,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Shift">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Dress"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Shirt -->
@@ -510,7 +510,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#ShirtDress -->
@@ -518,7 +518,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#ShirtDress">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Dress"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Short -->
@@ -526,13 +526,13 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Short">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#WomenWear"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Size -->
 
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Size"/>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Skinny -->
@@ -540,7 +540,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Skinny">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#LadyTrouser"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Skirt -->
@@ -548,13 +548,13 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Skirt">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#WomenWear"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Sleeve -->
 
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Sleeve"/>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#StandardSize -->
@@ -562,7 +562,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#StandardSize">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Size"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Straight -->
@@ -570,7 +570,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Straight">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#LadyTrouser"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Strapless -->
@@ -578,7 +578,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Strapless">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Dress"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#TShirt -->
@@ -592,7 +592,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Tent -->
@@ -600,7 +600,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#Tent">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Dress"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Top -->
@@ -614,7 +614,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#UKSize -->
@@ -622,7 +622,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#UKSize">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Size"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#WaistSize -->
@@ -630,7 +630,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#WaistSize">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Size"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#WideLeg -->
@@ -638,7 +638,7 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#WideLeg">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#LadyTrouser"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#WomenWear -->
@@ -646,10 +646,10 @@
     <owl:Class rdf:about="http://www.dresspoint.com/ontologies/clothing#WomenWear">
         <rdfs:subClassOf rdf:resource="http://www.dresspoint.com/ontologies/clothing#Cloth"/>
     </owl:Class>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Individuals
@@ -657,7 +657,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#ChineseCollar -->
@@ -666,7 +666,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#CollarStyle"/>
         <ont:hasCollarName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chinese Collar</ont:hasCollarName>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#CrewNeck -->
@@ -675,7 +675,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#NeckType"/>
         <hasNeckTypeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crew Neck</hasNeckTypeName>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#GentShirt1 -->
@@ -693,7 +693,7 @@
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasOffer>
         <picturePath rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></picturePath>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#GentShirt2 -->
@@ -711,7 +711,7 @@
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasOffer>
         <picturePath rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></picturePath>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#GentShirt3 -->
@@ -729,7 +729,7 @@
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasOffer>
         <picturePath rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></picturePath>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#GentShirt4 -->
@@ -737,7 +737,7 @@
     <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#GentShirt4">
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Shirt"/>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#GentTShirt3 -->
@@ -754,7 +754,7 @@
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</hasOffer>
         <picturePath rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></picturePath>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#GentTShirt4 -->
@@ -769,7 +769,7 @@
         <hasClothPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1350.0</hasClothPrice>
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</hasOffer>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#GentTshirt2 -->
@@ -786,7 +786,7 @@
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</hasOffer>
         <picturePath rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></picturePath>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#NormalCollar -->
@@ -795,7 +795,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#CollarStyle"/>
         <ont:hasCollarName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noraml Collar</ont:hasCollarName>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#SlubVNeck -->
@@ -804,7 +804,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#NeckType"/>
         <hasNeckTypeName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slub V Neck</hasNeckTypeName>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#XLarge -->
@@ -813,7 +813,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#StandardSize"/>
         <hasSizeValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-Large</hasSizeValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.co-ode.org/ontologies/ont.owl#XSmall -->
@@ -822,7 +822,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#StandardSize"/>
         <hasSizeValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-Small</hasSizeValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Beige -->
@@ -831,7 +831,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Plain"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beige</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Black -->
@@ -840,7 +840,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Plain"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Black</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Blue -->
@@ -849,7 +849,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Plain"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blue</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Cotton -->
@@ -858,7 +858,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Material"/>
         <hasMaterialName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cotton</hasMaterialName>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Cream -->
@@ -867,7 +867,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Plain"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cream</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Denim -->
@@ -876,7 +876,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Material"/>
         <hasMaterialName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Denim</hasMaterialName>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Flannel -->
@@ -885,7 +885,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Material"/>
         <hasMaterialName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flannel</hasMaterialName>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Floral -->
@@ -894,7 +894,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Patterned"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Floral</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#FrillSleeve -->
@@ -903,7 +903,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Sleeve"/>
         <hasSleeveName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FrillSleeve</hasSleeveName>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#GentDenim1 -->
@@ -919,7 +919,7 @@
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.0</hasOffer>
         <picturePath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picturepath1</picturePath>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#GentDenim2 -->
@@ -935,7 +935,7 @@
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</hasOffer>
         <picturePath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">picturepath3</picturePath>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#GentDenim3 -->
@@ -951,7 +951,7 @@
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.0</hasOffer>
         <picturePath rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></picturePath>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#GentDenim4 -->
@@ -967,7 +967,7 @@
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</hasOffer>
         <picturePath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">path2</picturePath>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#GentTshirt1 -->
@@ -984,7 +984,7 @@
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.0</hasOffer>
         <picturePath rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></picturePath>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Green -->
@@ -993,7 +993,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Plain"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Green</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Large -->
@@ -1002,7 +1002,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#StandardSize"/>
         <hasSizeValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Large</hasSizeValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Linen -->
@@ -1011,7 +1011,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Material"/>
         <hasMaterialName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linen</hasMaterialName>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#LongSleeved -->
@@ -1020,7 +1020,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Sleeve"/>
         <hasSleeveName>LongSleeve</hasSleeveName>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Maroon -->
@@ -1029,7 +1029,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Plain"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maroon</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Medium -->
@@ -1038,7 +1038,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#StandardSize"/>
         <hasSizeValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medium</hasSizeValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Mustard -->
@@ -1047,7 +1047,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Plain"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mustard</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Navy -->
@@ -1056,7 +1056,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Plain"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Navy</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Orange -->
@@ -1065,7 +1065,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Plain"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orange</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Pink -->
@@ -1074,7 +1074,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Plain"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pink</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Printed -->
@@ -1083,7 +1083,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Patterned"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Printed</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#PrintedMaxi1 -->
@@ -1100,7 +1100,7 @@
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</hasOffer>
         <picturePath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C:\Users\Kithmini\Documents\Visual Studio 2015\Projects\TestApp3\x64\Debug\dog.jpg</picturePath>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#PrintedMaxi2 -->
@@ -1117,7 +1117,7 @@
         <hasOffer rdf:datatype="http://www.w3.org/2001/XMLSchema#double">10.0</hasOffer>
         <picturePath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E:\Entertain\Songs\hh.jpg</picturePath>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Red -->
@@ -1126,7 +1126,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Plain"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Red</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#ShortSleeved -->
@@ -1135,7 +1135,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Sleeve"/>
         <hasSleeveName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ShortSleeved</hasSleeveName>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Sleeveless -->
@@ -1144,7 +1144,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Sleeve"/>
         <hasSleeveName>Sleeveless</hasSleeveName>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Small -->
@@ -1153,7 +1153,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#StandardSize"/>
         <hasSizeValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small</hasSizeValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#Striped -->
@@ -1162,7 +1162,7 @@
         <rdf:type rdf:resource="http://www.dresspoint.com/ontologies/clothing#Patterned"/>
         <hasColorValue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Striped</hasColorValue>
     </owl:NamedIndividual>
-
+    
 
 
     <!-- http://www.dresspoint.com/ontologies/clothing#StripedMaxi1 -->

@@ -14,7 +14,6 @@ import java.io.IOException;
 public class QueryServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-
            // request.setAttribute("errorMessage", "Invalid login and password");
            // request.getRequestDispatcher("/QueryServlet.jsp").forward(request,response);
            // request.getRequestDispatcher("/test1.jsp").forward(request,response);

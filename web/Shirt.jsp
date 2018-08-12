@@ -148,7 +148,7 @@ pageEncoding="ISO-8859-1" import="java.util.*" %>
     
             <div class="container">
                 <div class="row">
-    <form action="/action_page.php">
+    <form action="/Shirt" method="post">
 	
 	<select name="sleeve">
 	<option value="volvo">Sleeve</option>
