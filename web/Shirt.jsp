@@ -145,46 +145,61 @@ pageEncoding="ISO-8859-1" import="java.util.*" %>
             <div class="container" >
 			<h2 align="center">Shirts</h2>
 			</div>
+            <div class="container" >
+                <h4>Find your dress</h4>
+            </div>
     
             <div class="container">
                 <div class="row">
-    <form action="/Shirt" method="post">
-	
-	<select name="sleeve">
-	<option value="volvo">Sleeve</option>
-	<option value="LongSleeved">LongSleeved</option>
-	<option value="ShortSleeved">ShortSleeved</option>
-	
-	
-	</select>
-	
-	<select name="size">
-	<option value="volvo">Size</option>
-	<option value="Small">Small</option>
-	<option value="Medium">Medium</option>
-	<option value="Large">Large</option>	
-	</select>
-	
-	<select name="color">
-	<option value="volvo">Color</option>
-	<option value="Beige">Beige</option>
-	<option value="Black">Black</option>
-	<option value="Blue">Blue</option>
-	<option value="Green">Green</option>
-	<option value="Red">Red</option>
-	<option value="White">White</option>
-	<option value="Navy">Navy</option>
-	<option value="Orange">Orange</option>
-	</select>
-	<select name="price">
-	<option value="volvo">Price(Rs)</option>
-	<option value="1">1500-2000</option>
-	<option value="2">2000-2500</option>
-	<option value="3">2500-3000</option>
-		<option value="3">Above 3000</option>
-	
-	</select>
-<input type="submit" value="GO">
+    <form class = "container" action="/QueryCallServlet" method="post">
+        <div class="row">
+            <div class="col-md-3">
+                <select class="form-control form-control-sm" name="sleeve">
+                    <option value="volvo">Sleeve</option>
+                    <option value="LongSleeved">LongSleeved</option>
+                    <option value="ShortSleeved">ShortSleeved</option>
+                </select>
+
+            </div>
+            <div class="col-md-3">
+                <select class="form-control form-control-sm" name="size">
+                    <option value="volvo">Size</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+
+            </div>
+            <div class="col-md-3">
+                <select class="form-control form-control-sm" name="color">
+                    <option value="volvo">Color</option>
+                    <option value="Beige">Beige</option>
+                    <option value="Black">Black</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                    <option value="Red">Red</option>
+                    <option value="White">White</option>
+                    <option value="Navy">Navy</option>
+                    <option value="Orange">Orange</option>
+                </select>
+
+            </div>
+            <div class="col-md-2">
+                <select class="form-control form-control-sm" name="price">
+                    <option value="volvo">Price(Rs)</option>
+                    <option value="1">1500-2000</option>
+                    <option value="2">2000-2500</option>
+                    <option value="3">2500-3000</option>
+                    <option value="3">Above 3000</option>
+                </select>
+
+            </div>
+            <div class="col-md-1">
+                <button type="submit" class="btn btn-danger btn-md">Search</button>
+            </div>
+
+        </div>
+
 <br><br>
 </form>
                 </div>

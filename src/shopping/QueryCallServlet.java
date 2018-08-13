@@ -5,18 +5,33 @@ import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.util.FileManager;
 
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
-public class QueryCallServlet {
+@WebServlet("/QueryCallServlet")
+public class QueryCallServlet extends HttpServlet {
 
 
-    String nameToString, priceToString, brandToString;
-    public static void main(String args[]){
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        String sleeve = request.getParameter("sleeve");
+        String size =request.getParameter("size");
+        String color = request.getParameter("color");
+        String price = request.getParameter("price");
+        System.out.println(sleeve);
+        System.out.println(size);
+        System.out.println(color);
+        System.out.println(price);
+
         ArrayList<Cloth> resultList = new ArrayList<Cloth>();
 
         FileManager.get().addLocatorClassLoader(QueryCallServlet.class.getClassLoader());
-        Model model = FileManager.get().loadModel("F:\\L4S1\\Thisaru\\semantic\\setup\\New folder\\dress-point\\src\\dresspointSunday350.owl");
+        Model model = FileManager.get().loadModel("E:\\dresspointSunday350.owl");
 //===============================================================================================================
          //model.write(System.out, "RDF/JSON");
 
@@ -31,11 +46,9 @@ public class QueryCallServlet {
                 + "?cloth clothing:hasClothName ?clothname;"
                 + "       clothing:hasSize ?size;"
                 + "       clothing:hasClothPrice ?clothPrice;"
-                +"        clothing:picturePath ?clothPicPath."
+                +"        clothing:picturePath ?clothPicPath;"
+                +"        rdf:type clothing:Shirt."
                 + "?size clothing:hasSizeValue ?clothSize.}";
-          /*      + "?product footware:hasSize ?size FILTER (?size = " + size + ")."
-                + "?product footware:isTypeOf ?sType FILTER (?sType = \"" + type + "\")."
-                + "} LIMIT 5";*/
 
 //===================================================================================================================
         Query query = QueryFactory.create(queryString);
@@ -46,7 +59,6 @@ public class QueryCallServlet {
                 Cloth cloth = new Cloth();
                 QuerySolution solution = results.nextSolution();
                 Literal clothname   = solution.getLiteral("clothname");
-
                 Literal clothPrice = solution.getLiteral("clothPrice");
                 Literal clothSize  = solution.getLiteral("clothSize");
                 Literal clothPicturePath  = solution.getLiteral("clothPicPath");
@@ -71,6 +83,9 @@ public class QueryCallServlet {
 
 //
         }
+
+        request.setAttribute("clothList", resultList);
+        request.getRequestDispatcher("ShirtNew.jsp").forward(request, response);
 
     }
 
