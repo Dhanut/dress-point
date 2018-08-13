@@ -165,8 +165,8 @@
                 </div>
                 <!-- Product Description -->
                 <div class="product-description">
-                    <h4 class="product-price">$39.90</h4>
-                    <p>Jeans midi cocktail dress</p>
+                    <h4 class="product-price">RS.3900.00</h4>
+                    <p>Gray Tight Jean</p>
                     <!-- Add to Cart -->
                     <a href="#" class="add-to-cart-btn">ADD TO CART</a>
                 </div>
@@ -183,8 +183,8 @@
                 </div>
                 <!-- Product Description -->
                 <div class="product-description">
-                    <h4 class="product-price">$39.90</h4>
-                    <p>Jeans midi cocktail dress</p>
+                    <h4 class="product-price">RS.2800.00</h4>
+                    <p>Cocktail Ripped Jean</p>
                     <!-- Add to Cart -->
                     <a href="#" class="add-to-cart-btn">ADD TO CART</a>
                 </div>
@@ -201,8 +201,8 @@
                 </div>
                 <!-- Product Description -->
                 <div class="product-description">
-                    <h4 class="product-price">$39.90</h4>
-                    <p>Jeans midi cocktail dress</p>
+                    <h4 class="product-price">RS.1500.00</h4>
+                    <p>Striped Short</p>
                     <!-- Add to Cart -->
                     <a href="#" class="add-to-cart-btn">ADD TO CART</a>
                 </div>
@@ -219,8 +219,8 @@
                 </div>
                 <!-- Product Description -->
                 <div class="product-description">
-                    <h4 class="product-price">$39.90</h4>
-                    <p>Jeans midi cocktail dress</p>
+                    <h4 class="product-price">RS.4000.00</h4>
+                    <p>Light Blue Ripped Jean</p>
                     <!-- Add to Cart -->
                     <a href="#" class="add-to-cart-btn">ADD TO CART</a>
                 </div>
@@ -237,8 +237,8 @@
                 </div>
                 <!-- Product Description -->
                 <div class="product-description">
-                    <h4 class="product-price">$39.90</h4>
-                    <p>Jeans midi cocktail dress</p>
+                    <h4 class="product-price">RS.2800.00</h4>
+                    <p>Peacock Blue Carpenter Suite</p>
                     <!-- Add to Cart -->
                     <a href="#" class="add-to-cart-btn">ADD TO CART</a>
                 </div>
@@ -255,8 +255,8 @@
                 </div>
                 <!-- Product Description -->
                 <div class="product-description">
-                    <h4 class="product-price">$39.90</h4>
-                    <p>Jeans midi cocktail dress</p>
+                    <h4 class="product-price">RS.2600.00</h4>
+                    <p>Crew Black Neck White T-shirt</p>
                     <!-- Add to Cart -->
                     <a href="#" class="add-to-cart-btn">ADD TO CART</a>
                 </div>
@@ -273,9 +273,9 @@
                 <div class="col-12 col-md-8 col-lg-6">
                     <div class="offer-content-area wow fadeInUp" data-wow-delay="1s">
                         <h2>White t-shirt <span class="karl-level">Hot</span></h2>
-                        <p>* Free shipping until 25 Dec 2017</p>
+                        <p>* Free shipping until 30 Aug 2018</p>
                         <div class="offer-product-price">
-                            <h3><span class="regular-price">$25.90</span> $15.90</h3>
+                            <h3><span class="regular-price">RS.1500.00</span> RS.5500.00</h3>
                         </div>
                         <a href="#" class="btn karl-btn mt-30">Shop Now</a>
                     </div>

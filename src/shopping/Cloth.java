@@ -7,6 +7,11 @@ public class Cloth {
     private double clothPrice;
     private String clothColor;
     private String clothMaterial;
+    private String clothSleeve;
+    private String clothNeck;
+    private String clothCollar;
+
+
 
 
     public String getClothName() {
@@ -55,5 +60,29 @@ public class Cloth {
 
     public void setClothMaterial(String clothMaterial) {
         this.clothMaterial = clothMaterial;
+    }
+
+    public String getClothSleeve() {
+        return clothSleeve;
+    }
+
+    public void setClothSleeve(String clothSleeve) {
+        this.clothSleeve = clothSleeve;
+    }
+
+    public String getClothNeck() {
+        return clothNeck;
+    }
+
+    public void setClothNeck(String clothNeck) {
+        this.clothNeck = clothNeck;
+    }
+
+    public String getClothCollar() {
+        return clothCollar;
+    }
+
+    public void setClothCollar(String clothCollar) {
+        this.clothCollar = clothCollar;
     }
 }
